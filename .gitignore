@@ -1,4 +1,11 @@
-
+# Plugin Specific ignores
+default_env.tres
+icon.png
+icon.png.import
+project.godot
+scn/
+override.cfg
+addons/github-integration/
 # Godot-specific ignores
 .import/
 export.cfg
