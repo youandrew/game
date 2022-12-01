@@ -49,7 +49,7 @@ func getinput():
 			
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _physics_process(delta):
 	getinput()
 	gravity += 200 * delta
 	move_and_collide(Vector2(0,gravity*delta))
